@@ -10,10 +10,10 @@ function App() {
   return (
     <div className="App">
       <Title/>
-      <UploadForm />
-      <ImageGrid setSelectedImg={setSelectedImg} />
+      <UploadForm/>
+      <ImageGrid setSelectedImg={setSelectedImg}/>
       { selectedImg && (
-        <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
+        <Modal selectedImg={selectedImg}setSelectedImg={setSelectedImg} />
       )}
     </div>
   );
